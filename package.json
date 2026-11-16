@@ -1,5 +1,6 @@
 {
   "name": "tamanna_portfolio",
+  "homepage": "https://tamann-wq.github.io/Tamanna-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
